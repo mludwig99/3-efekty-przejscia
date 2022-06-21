@@ -1,0 +1,39 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border: solid 2px black;
+    margin: 50px;
+    transition: all linear 1s ;
+    background-color: blue;
+}
+
+.box1:hover{
+    
+    width: 300px;
+}
+.box2{
+    background-color: red;
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 75px);
+}
+.box2:hover{
+    height: 300px;
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 75px);
+}
+.box3 {
+    position: absolute;
+    top: calc(50% - 75px);
+    background-color: green;
+    
+}
+.box3:hover {
+    height: 300px;
+    width:  300px;
+    position: absolute;
+    top: calc(50% - 75px);
+    
+}
